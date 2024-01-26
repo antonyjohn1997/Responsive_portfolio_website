@@ -1,0 +1,20 @@
+
+.h1{
+    color:red;
+}
+.myrows
+{
+    border:3px solid green;
+}
+
+.mycols
+{
+    border:3px solid red;
+}
+
+.mycontainer
+{
+    background-color: aqua;
+    border:3px solid red;
+}
+body{background-color: aqua;}

@@ -1,0 +1,50 @@
+
+/*.h1{
+    color:red;
+}*/
+/* .myrows 
+{
+    border:3px solid green;*/
+    /* background-color: blue; */
+  /*  padding:5px;
+}
+
+.mycols
+{
+    border:3px solid yellow;
+    background-color: blueviolet;
+}
+
+.mycontainer
+{
+    background-color: aqua;
+    border:3px solid red;
+}*/
+/*body{background-color: aqua;}*/
+
+#topheader
+{
+    background-color: bisque;
+    border-bottom: 5px solid red;
+
+}
+
+#topheader a 
+{
+    color:#34495e;
+    font-weight: 500;
+    font-size: 0.89rem;
+}
+
+.container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+nav ul li a
+/* for bolding navbar content */
+{
+    font-size:3rem;
+    font-weight:600;
+}
