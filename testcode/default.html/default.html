@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <!-- <link rel="stylesheet" type="text/css" href="D:\sample projects\Responsive_portfolio_website\testcode\css\style.css"> NOT WORKING-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/69662d00f0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css"  href="D:/sample projects/testcode/css/style.css">
+    
   </head>
   <body>
 <!-- 
@@ -35,25 +38,27 @@
         <nav class="navbar navbar-dark  navbar-expand-lg" style="background-color: #34495e;">
 
             <a href="" class="navbar-brand">hello
-              <img src="imag\Untitled.png" alt="" class="src" width="50px">
+              <!-- <img src="imag\Untitled.png" alt="" class="src" width="50px"> NOT WORKING-->
+              <img src="Untitled.png" alt="" class="src" width="50px"> 
+
             </a>
 
-            <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbarToggler"><span class="navbar-toggler-icon"></span></button>
+            <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
            
-          <div class="collapse navbar-collapse" id="navbarToggler">
+         <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a href="" class="nav-link">Home</a>
               </li>
 
               <li class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" button="">Services</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#" >Services</a>
 
                 <div class="dropdown-menu">
-                  <a href="" class="dropdown-item" >Services</a>
-                  <a href="" class="dropdown-item" >Services</a>
-                  <a href="" class="dropdown-item" >Services</a>
-                  <a href="" class="dropdown-item" >Services</a>
+                  <a class="dropdown-item" href="#"  >Services</a>
+                  <a class="dropdown-item" href="#"  >Services</a>
+                  <a class="dropdown-item" href="#"  >Services</a>
+                  <a class="dropdown-item" href="#"  >Services</a>
 
                 </div>
               </li>
@@ -80,7 +85,60 @@
     </div>
 
   </header>
+<footer class="full-footer">
+  <div class="container top-footer p-md-5 p-3">
+    <div class="row">
+      <div class="col-md-3 p-3">
+        <img class="img-fluid" src="Untitled.png" alt=""> 
+        <p>
+          hello this is my website , 
+          All are welcome.
+          <a href="#" >Read more </a>
+        </p>
+        <a style="color:cyan" class="p-1" href="#"><i class="fa-brands fa-2x fa-facebook"></i></a><!--- fa-2x , fa-3x for increse the size of icon-->
+        <a style="color:cyan" class="p-1" href="#"><i class="fa-brands fa-3x fa-instagram"></i></a>
+        <a style="color:cyan" class="p-1" href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a style="color:cyan" class="p-1" href="#"><i class="fa-brands fa-4x fa-twitter"></i></a>
 
+      </div>
+      <div class="col-md-3 p-3">
+         <h3>Important Links</h3>
+         <a href="#">Privacy Policy</a><br>
+         <a href="#">Youtube Chanal Links</a><br>
+         <a href="#">Blog Articles</a><br>
+         <a href="#">Social Media</a><br><br>
+
+      </div>
+      <div class="col-md-3 p-3">
+         <h3>Services</h3>
+         <a href="#">Web Desigin</a><br>
+         <a href="#">Youtube Chanal Links</a><br>
+         <a href="#">Blog Articles</a><br>
+         <a href="#">Social Media</a><br> 
+      </div>
+      <div class="col-md-3 p-3">
+        <h3>Contact Us</h3>
+        <a href="#"><i class="fa-solid fa-phone-flip"></i>123456789</a><br>
+        <a href="#"><i class="fa-solid fa-envelope"></i>hhih@gmail.com</a><br>
+        <div class="embed responsive embed responsive-16by9"> <!-- to map become responsive-->
+          <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.616023968887!2d80.28169357621756!3d13.060095680117465!
+          2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5269dcdbe54c39%3A0xa34656d98a6ba90b!2sMarina%20Beach!5e0!3m2!1sen!2sin!
+          4v1706686799219!5m2!1sen!2sin" frameborder="0"></iframe>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bottom-footer pt-3">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Copyright @ 2024 All rights are reserved </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
 
     <!-- for studying  -->
 
