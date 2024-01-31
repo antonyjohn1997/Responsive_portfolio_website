@@ -80,3 +80,23 @@ nav ul li a
     color:white;
 }
 /* end:footer */
+/* start: Home page first hero section */
+
+.top-hero-section
+{
+    background-color:#3498db;
+    color: white;
+}
+
+.top-hero-section a
+{
+    
+    color: white;
+    font-weight:600;
+}
+
+.qualities-img
+{
+    width:200px;
+}
+/* end: Home page first hero section */
