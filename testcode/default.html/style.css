@@ -100,3 +100,50 @@ nav ul li a
     width:200px;
 }
 /* end: Home page first hero section */
+
+
+/* start: homeparge 3 rd section */
+
+.requirements-section
+{
+    background-color:brown;
+    color:white;
+}
+
+
+/* start: homeparge 3 rd section */
+
+/* start:  homepage 5th section-requirements-newsletter-sanction  */
+
+.home-newsletter
+{
+    background-color:brown;
+    color:white;
+}
+
+.home-newsletter .form-control
+{
+    height: 50px;
+    border-color: black;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.home-newsletter .btn
+{
+    color:aqua;
+    min-height: 50px;
+    background: #34495e;
+    border-radius: 0 20px 20px 0;
+
+}
+/* end:  homepage 5th section-requirements-newsletter-sanction  */
+
+/* start:homepage 7th section- Our_Clients*/
+.clients-section
+{
+    background-color: #3498db;
+}
+
+/* end:homepage 7th section- Our_Clients  */
+
