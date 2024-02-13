@@ -6,8 +6,8 @@
 {
     border:3px solid green;*/
     /* background-color: blue; */
-  /*  padding:5px;
-}
+    /* padding:5px; */
+/* } */
 
 .mycols
 {
@@ -18,8 +18,8 @@
 .mycontainer
 {
     background-color: aqua;
-    border:3px solid red;
-}*/
+    /* border:3px solid red; */
+}
 /*body{background-color: aqua;}*/
 
 #topheader
@@ -147,3 +147,12 @@ nav ul li a
 
 /* end:homepage 7th section- Our_Clients  */
 
+/* end of home page  */
+
+/* start of about us page section */
+
+.breadcrumbs-section
+{
+    background-color: #3498db;
+
+}
