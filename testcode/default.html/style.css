@@ -156,3 +156,23 @@ nav ul li a
     background-color: #3498db;
 
 }
+
+/* end of about us page section */
+
+/* start of contact us page */
+
+.forform
+{
+    background-color: aqua;
+}
+.address
+{
+    background-color: #3498db;
+}
+.address p
+{
+    font-weight:600 ;
+
+}
+
+/* end of contact us page  */
