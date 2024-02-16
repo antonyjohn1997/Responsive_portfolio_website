@@ -176,3 +176,17 @@ nav ul li a
 }
 
 /* end of contact us page  */
+
+/* start of webdesingning page */
+
+.bar 
+{
+    color :white;
+    font-weight: 500px;
+    font-size: 15px;
+    border:2px solid red;
+    border-radius: 10px;
+}
+
+/* end of webdesingning page */
+
